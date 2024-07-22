@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import pymongo
 
+#It is a backend code
+
 # Define Pydantic model
 class DetailsQuery(BaseModel):
     name: str

@@ -22,7 +22,7 @@ const App = () => {
 
     return (
         <div>
-            <h1>This is my demo program</h1>
+            <h1>This is my demo code</h1>
             <input type="text" name="start_date" value={start_date} onChange={(e) => setFirst(e.target.value)} /><br/>
             <input type="text" name="end_date" value={end_date} onChange={(e) => setLast(e.target.value)} /><br/>
             <input type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} /><br/>
